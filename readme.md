@@ -34,7 +34,8 @@ var gps = require("gps-tracking");
 var options = {
     'debug'                 : true,
     'port'                  : 8090,
-    'device_adapter'        : "TK103"
+	'device_adapter'        : "TK103",
+	'host'					: "0.0.0.0"
 }
 
 var server = gps.server(options,function(device,connection){
