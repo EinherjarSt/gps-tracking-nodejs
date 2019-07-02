@@ -16,7 +16,7 @@ This package let you easily create listeners for your GPS tracking devices. You 
 # Installation   
 With package manager [npm](http://npmjs.org/):
 
-	npm install gps-tracking
+	npm install https://github.com/EinherjarSt/gps-tracking-nodejs
 
 #### Currently supported models
 - TK103
